@@ -2,9 +2,9 @@
 {
     static void Main()
     {
-        int[] array = { 38, 27, 43, 3, 9, 82, 10 };
-        MergeSort(array, 0, array.Length - 1);
-        Console.WriteLine("Sorted array: " + string.Join(", ", array));
+        int[] exampleArray = { 38, 27, 43, 3, 9, 82, 10 };
+        MergeSort(exampleArray, 0, exampleArray.Length - 1);
+        Console.WriteLine("Sorted array: " + string.Join(", ", exampleArray));
     }
 
     static void MergeSort(int[] array, int left, int right)
